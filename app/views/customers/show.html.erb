@@ -5,7 +5,6 @@
   <%=h @customer.name %>
 </p>
 <ol>
-  Investment Name;Amount;APY
   <% for invest in @customer.investments %>
       <li><%= h invest.investment_name %>;<%= h invest.investment_amount %>;<%= h invest.investment_apy %></li>
   <% end %>
