@@ -1,0 +1,19 @@
+<% title "Customer" %>
+
+<p>
+  <strong>Name:</strong>
+  <%=h @customer.name %>
+</p>
+<ol>
+  Investment Name;Amount;APY
+  <% for invest in @customer.investments %>
+      <li><%= h invest.investment_name %>;<%= h invest.investment_amount %>;<%= h invest.investment_apy %></li>
+  <% end %>
+</ol>
+
+
+<p>
+  <%= link_to "Edit", edit_customer_path(@customer) %> |
+  <%= link_to "Destroy", @customer, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", customers_path %>
+</p>
