@@ -4,9 +4,11 @@
       <%= f.label :name %><br />
       <%= f.text_field :name %>
     </p>
-    <% f.fields_for :investments do |builder| %>
-        <%= render 'investment_fields', :inv_f => builder %>
-    <% end %>
-        <p><%= link_to_add_fields "Add Investment", f, :investments %></p>
+    <div id="new_investments"> Investments:
+      <% f.fields_for :investments, :child_index => "start" do |builder| %>
+          <%= render 'investment_fields', :inv_f => builder %>
+      <% end %>
+    </div>
+    <p><%= link_to "Add Investment" , {}, :class => "new_investment"%></p>
     <p><%= f.submit "Submit" %></p>
 <% end %>

@@ -1,19 +1,22 @@
 // Place your application-specific JavaScript functions and classes here
 // This file is automatically included by javascript_include_tag :defaults
 
-/*
-function add_fields(link, association, content) {
-  var new_id = new Date().getTime();
-  var regexp = new RegExp("new_" + association, "g")
-  $(link).up().insert({
-    before: content.replace(regexp, new_id)
-  });
-}
-*/
 
 
-function add_fields(link, association, content) {
-  var new_id = new Date().getTime();
-  var regexp = new RegExp("new_" + association, "g")
-  $(link).parent().before(content.replace(regexp, new_id));
-}
+(function($) {
+
+    $(document).ready(function(){
+        $('a.new_investment').click(function (e){
+            var x = ($('.specific_investment:first').clone());
+            x.find('a').attr('value','');
+            x = x.html();
+            var new_id = new Date().getTime();
+            var regexp = new RegExp("start", "g");
+            var replaced = x.replace(regexp, new_id);
+
+            $(replaced).appendTo('#new_investments');
+            e.preventDefault();
+        });
+    });
+})(jQuery);
+
