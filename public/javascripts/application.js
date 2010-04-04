@@ -17,6 +17,12 @@
             $(replaced).appendTo('#new_investments');
             e.preventDefault();
         });
+
+        $('.delete_investment').click(function (e){
+            $(this).prev("input[type=hidden]").val("1");
+            $(this).closest(".specific_investment").hide();
+            e.preventDefault();
+        });
     });
 })(jQuery);
 

@@ -1,5 +1,5 @@
 <% title "New Customer" %>
 
-<%= render :partial => 'form' %>
+<%= render :partial => 'form', :locals => {:initial_index => "start" }%>
 
 <p><%= link_to "Back to List", customers_path %></p>
