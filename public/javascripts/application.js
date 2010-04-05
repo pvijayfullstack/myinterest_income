@@ -12,8 +12,10 @@
             x = x.html();
             var new_id = new Date().getTime();
             //TODO better handling; refactor
-            var regexp = new RegExp("\[0\]", "g");
-            var replaced  = x.replace(regexp, new_id);
+            var regexp = new RegExp("\\[0\\]", "g");
+            var replaced  = x.replace(regexp, "["+new_id+"]");
+            regexp = new RegExp("_0", "g");
+            replaced  = replaced.replace(regexp, "_"+new_id+"_");
             regexp = new RegExp("display: none;", "g");
             replaced = replaced.replace(regexp, "");
             replaced = '<p class="specific_investment">' + replaced + '</p>'
