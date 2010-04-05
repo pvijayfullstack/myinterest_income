@@ -26,6 +26,7 @@ class CustomersController < ApplicationController
   
   def edit
     @customer = Customer.find(params[:id])
+    @customer.investments.build unless @customer.investments.exists?
   end
   
   def update
