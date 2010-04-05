@@ -5,6 +5,7 @@ class CreateInvestments < ActiveRecord::Migration
       t.string :investment_name
       t.decimal :investment_amount
       t.float :investment_apy
+      t.float :investment_years
       t.integer :account_id
       t.string :account_type
 

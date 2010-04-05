@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(:version => 20100402070220) do
     t.string   "investment_name"
     t.decimal  "investment_amount"
     t.float    "investment_apy"
+    t.float    "investment_years"
     t.integer  "account_id"
     t.string   "account_type"
     t.datetime "created_at"
