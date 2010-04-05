@@ -6,7 +6,7 @@
 </p>
 <ol>
   <% for invest in @customer.investments %>
-      <li><%= h invest.investment_name %>;<%= h invest.investment_amount %> invested;<%= h invest.investment_apy %>%;<%= h invest.investment_years %>years</li>
+      <li><%= h invest.investment_name %>;<%= h invest.investment_amount %> invested;<%= h invest.investment_apy %>%;<%= h invest.investment_years %>years;<%= h invest.average_monthly %> Average Monthly</li>
   <% end %>
 </ol>
 
