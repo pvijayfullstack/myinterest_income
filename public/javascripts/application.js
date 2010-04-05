@@ -8,14 +8,18 @@
     $(document).ready(function(){
 
         $('a.new_investment').live('click', function (e){
-            var x = ($('#initial').clone());
+            var x = (jQuery('.specific_investment').filter(':first')).clone();
             x = x.html();
             var new_id = new Date().getTime();
-            var regexp = new RegExp("start", "g");
+            //TODO better handling; refactor
+            var regexp = new RegExp("\[0\]", "g");
             var replaced  = x.replace(regexp, new_id);
             regexp = new RegExp("display: none;", "g");
             replaced = replaced.replace(regexp, "");
-            $(replaced).find('input').attr('value','').end().appendTo('#new_investments');
+            replaced = '<p class="specific_investment">' + replaced + '</p>'
+            var el = jQuery(replaced);
+            el.appendTo('#new_investments');
+            jQuery('.specific_investment').filter(':last').find('input').attr('value', '');
             e.preventDefault();
         });
 
