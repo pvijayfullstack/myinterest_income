@@ -6,22 +6,26 @@
 (function($) {
 
     $(document).ready(function(){
-        $('a.new_investment').click(function (e){
-            var x = ($('.specific_investment:first').clone());
+
+        $('a.new_investment').live('click', function (e){
+            var x = ($('#initial').clone());
+            console.log("checking here");
             x.find('a').attr('value','');
             x = x.html();
             var new_id = new Date().getTime();
             var regexp = new RegExp("start", "g");
-            var replaced = x.replace(regexp, new_id);
-
-            $(replaced).appendTo('#new_investments');
+            x = x.replace(regexp, new_id);
+            regexp = new RegExp("display: none;", "g");
+            x = x.replace(regexp, "");
+            $(x).appendTo('#new_investments');
             e.preventDefault();
         });
 
-        $('.delete_investment').click(function (e){
+        $('.delete_investment').live('click', function (e){
+            console.log("$(this) ", $(this));
             $(this).prev("input[type=hidden]").val("1");
             $(this).closest(".specific_investment").hide();
-            e.preventDefault();
+            return false;
         });
     });
 })(jQuery);
