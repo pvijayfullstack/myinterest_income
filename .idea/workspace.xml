@@ -24,19 +24,19 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_investment_fields.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_investment_fields.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/customers/_investment_fields.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="49" selection-start="486" selection-end="486" vertical-scroll-proportion="-5.6842103">
+            <state line="2" column="41" selection-start="74" selection-end="74" vertical-scroll-proportion="0.046332046">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/customers/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="355" selection-start="487" selection-end="487" vertical-scroll-proportion="0.19085488">
+            <state line="8" column="355" selection-start="487" selection-end="487" vertical-scroll-proportion="-5.0526314">
               <folding />
             </state>
           </provider>
@@ -137,9 +137,9 @@
         <option value="$PROJECT_DIR$/public/javascripts/application.js" />
         <option value="$PROJECT_DIR$/db/migrate/20100402070220_create_investments.rb" />
         <option value="$PROJECT_DIR$/app/models/customer.rb" />
-        <option value="$PROJECT_DIR$/app/views/customers/_investment_fields.html.erb" />
         <option value="$PROJECT_DIR$/app/models/investment.rb" />
         <option value="$PROJECT_DIR$/app/views/customers/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/customers/_investment_fields.html.erb" />
       </list>
     </option>
   </component>
@@ -725,16 +725,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/customers/_investment_fields.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/customers/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="49" selection-start="486" selection-end="486" vertical-scroll-proportion="-5.6842103">
+        <state line="8" column="355" selection-start="487" selection-end="487" vertical-scroll-proportion="-5.0526314">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/customers/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/customers/_investment_fields.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="355" selection-start="487" selection-end="487" vertical-scroll-proportion="0.19085488">
+        <state line="2" column="41" selection-start="74" selection-end="74" vertical-scroll-proportion="0.046332046">
           <folding />
         </state>
       </provider>
