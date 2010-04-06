@@ -25,8 +25,8 @@ Basic UI and Model support: Add new, Edit, View Delete Multiple Investments by a
 
 Remaining Functionality
 
-1. UI: Very basic currently has to be improved with layout as in www.drinnovations.us
-2. Bank Model and Its presentation
+1. Bank Model and Its presentation
+2. UI Layout: Very basic currently has to be improved with layout as in www.drinnovations.us
 3. Validation checks
 4. RSpec tests to be checked in
 --------------------------
