@@ -14,3 +14,19 @@ Set up database.yml
 rake db:migrate
 script/server
 
+-------------------
+Completed Functionality
+
+Customer and Investments Model with Nested Attributes Updates
+Basic UI and Model support: Add new, Edit, View, Delete Customers
+Basic UI and Model support: Add new, Edit, View Delete Multiple Investments by a Customer
+
+------------------------
+
+Remaining Functionality
+
+1. UI: Very basic currently has to be improved with layout as in www.drinnovations.us
+2. Bank Model and Its presentation
+3. Validation checks
+4. RSpec tests to be checked in
+--------------------------
