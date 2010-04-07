@@ -20,12 +20,14 @@ Completed Functionality
 Customer and Investments Model with Nested Attributes Updates
 Basic UI and Model support: Add new, Edit, View, Delete Customers
 Basic UI and Model support: Add new, Edit, View Delete Multiple Investments by a Customer
+Bank Model Introduced and it belongs to Investments.
+Basic UI and Model support: Add new, Edit, View Delete Multiple Investments with Banks by a Customer
 
 ------------------------
 
 Remaining Functionality
 
-1. Bank Model and Its presentation
+1. Bank Delete required?
 2. UI Layout: Very basic currently has to be improved with layout as in www.drinnovations.us
 3. Validation checks
 4. RSpec tests to be checked in

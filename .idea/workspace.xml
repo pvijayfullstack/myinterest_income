@@ -24,10 +24,19 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="investment.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="investment.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/investment.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="48" selection-start="655" selection-end="655" vertical-scroll-proportion="0.57051283">
+            <state line="22" column="48" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="20" selection-start="1406" selection-end="1406" vertical-scroll-proportion="0.7307692">
               <folding />
             </state>
           </provider>
@@ -96,15 +105,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/customers/_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="-1.8947369">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="form_helper.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file:///Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/form_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -133,13 +133,13 @@
         <option value="$PROJECT_DIR$/app/views/customers/new.html.erb" />
         <option value="$PROJECT_DIR$/public/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/views/customers/show.html.erb" />
-        <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/app/views/customers/_form.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20100402070220_create_investments.rb" />
         <option value="$PROJECT_DIR$/app/models/bank.rb" />
         <option value="$PROJECT_DIR$/app/models/customer.rb" />
         <option value="$PROJECT_DIR$/app/views/customers/_investment_fields.html.erb" />
         <option value="$PROJECT_DIR$/app/models/investment.rb" />
+        <option value="$PROJECT_DIR$/README" />
       </list>
     </option>
   </component>
@@ -659,13 +659,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/migrate/20100402070220_create_investments.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="31" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20100406204747_create_banks.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="6" selection-start="95" selection-end="109" vertical-scroll-proportion="0.0">
@@ -766,7 +759,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/investment.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="48" selection-start="655" selection-end="655" vertical-scroll-proportion="0.57051283">
+        <state line="22" column="48" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="20" selection-start="1406" selection-end="1406" vertical-scroll-proportion="0.7307692">
           <folding />
         </state>
       </provider>
