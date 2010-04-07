@@ -27,7 +27,7 @@
       <file leaf-file-name="investment.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/investment.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="48" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0">
+            <state line="38" column="30" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -36,7 +36,7 @@
       <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="20" selection-start="1406" selection-end="1406" vertical-scroll-proportion="0.7307692">
+            <state line="29" column="51" selection-start="1266" selection-end="1266" vertical-scroll-proportion="0.5769231">
               <folding />
             </state>
           </provider>
@@ -722,20 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/customer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="68" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/bank.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="23" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/customers/_investment_fields.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="79" selection-end="79" vertical-scroll-proportion="-0.8">
@@ -757,16 +743,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/bank.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="23" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/customer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="68" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/investment.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="48" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0">
+        <state line="38" column="30" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="20" selection-start="1406" selection-end="1406" vertical-scroll-proportion="0.7307692">
+        <state line="29" column="51" selection-start="1266" selection-end="1266" vertical-scroll-proportion="0.5769231">
           <folding />
         </state>
       </provider>
