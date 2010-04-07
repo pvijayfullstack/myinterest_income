@@ -9,7 +9,13 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100402070220) do
+ActiveRecord::Schema.define(:version => 20100406204747) do
+
+  create_table "banks", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "customers", :force => true do |t|
     t.string   "name"
@@ -19,12 +25,11 @@ ActiveRecord::Schema.define(:version => 20100402070220) do
 
   create_table "investments", :force => true do |t|
     t.integer  "customer_id"
+    t.integer  "bank_id"
     t.string   "investment_name"
     t.decimal  "investment_amount"
     t.float    "investment_apy"
     t.float    "investment_years"
-    t.integer  "account_id"
-    t.string   "account_type"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

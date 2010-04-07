@@ -5,7 +5,7 @@
       <%= f.text_field :name %>
     </p>
     <div id="new_investments"> Investments:
-      <% f.fields_for :investments, ({:child_index => initial_index} if defined?(initial_index)) do |builder| %>
+      <% f.fields_for :investments do |builder| %>
           <%= render 'investment_fields', :inv_f => builder %>
       <% end %>
     </div>

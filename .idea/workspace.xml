@@ -24,19 +24,91 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="customer.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/customer.rb">
+      <file leaf-file-name="investment.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/investment.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="2" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
+            <state line="22" column="48" selection-start="655" selection-end="655" vertical-scroll-proportion="0.57051283">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README">
+      <file leaf-file-name="nilclass.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/rubystubs18/nilclass.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="12" selection-start="1108" selection-end="1108" vertical-scroll-proportion="0.63746226">
+            <state line="131" column="6" selection-start="2253" selection-end="2253" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="attribute_methods.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/attribute_methods.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="265" column="8" selection-start="11683" selection-end="11683" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="customer.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/customer.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="68" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bank.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/bank.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="23" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/customers/edit.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="30" selection-start="59" selection-end="59" vertical-scroll-proportion="-1.2631578">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_investment_fields.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/customers/_investment_fields.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="79" selection-end="79" vertical-scroll-proportion="-0.8">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cgi.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/cgi.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2018" column="8" selection-start="66966" selection-end="66966" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/customers/_form.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="-1.8947369">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form_helper.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/form_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="513" column="45" selection-start="21741" selection-end="21741" vertical-scroll-proportion="-7.6153846">
               <folding />
             </state>
           </provider>
@@ -52,22 +124,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/customers/_investments.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/public/javascripts/myinterest_income_jquery.js" />
         <option value="$PROJECT_DIR$/app/controllers/customers_controller.rb" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-        <option value="$PROJECT_DIR$/app/views/customers/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/customers/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/customers/new.html.erb" />
         <option value="$PROJECT_DIR$/public/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/db/migrate/20100402070220_create_investments.rb" />
-        <option value="$PROJECT_DIR$/app/models/investment.rb" />
         <option value="$PROJECT_DIR$/app/views/customers/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/customers/_investment_fields.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/customer.rb" />
         <option value="$PROJECT_DIR$/README" />
+        <option value="$PROJECT_DIR$/app/views/customers/_form.html.erb" />
+        <option value="$PROJECT_DIR$/db/migrate/20100402070220_create_investments.rb" />
+        <option value="$PROJECT_DIR$/app/models/bank.rb" />
+        <option value="$PROJECT_DIR$/app/models/customer.rb" />
+        <option value="$PROJECT_DIR$/app/views/customers/_investment_fields.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/investment.rb" />
       </list>
     </option>
   </component>
@@ -212,6 +284,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myinterest_income" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myinterest_income" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -293,6 +379,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -553,48 +643,32 @@
           <url>file://$PROJECT_DIR$/app/controllers/customers_controller.rb</url>
           <line>27</line>
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file:///Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/form_helper.rb</url>
+          <line>955</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/models/investment.rb</url>
+          <line>34</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/views/customers/_investment_fields.html.erb</url>
+          <line>2</line>
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="275" column="44" selection-start="11161" selection-end="11168" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="32" selection-start="262" selection-end="325" vertical-scroll-proportion="-3.7894738">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="1333" selection-end="1333" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="34" selection-start="1076" selection-end="1076" vertical-scroll-proportion="-8.769231">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/customers_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="5" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20100402070220_create_investments.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="34" selection-start="179" selection-end="196" vertical-scroll-proportion="0.0">
+        <state line="8" column="31" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20100406204747_create_banks.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="6" selection-start="95" selection-end="109" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -606,30 +680,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/investment.rb">
+    <entry file="file:///Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/base.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="6" selection-start="261" selection-end="285" vertical-scroll-proportion="0.0">
+        <state line="2710" column="18" selection-start="121569" selection-end="121569" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/customers/show.html.erb">
+    <entry file="file:///Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/string/output_safety.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="355" selection-start="487" selection-end="487" vertical-scroll-proportion="-5.0526314">
+        <state line="37" column="0" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/customers/new.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/customers_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="29" selection-start="57" selection-end="57" vertical-scroll-proportion="-1.2631578">
+        <state line="27" column="0" selection-start="716" selection-end="716" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/customers/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/customers/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="3" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="-1.8947369">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/cgi.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2018" column="8" selection-start="66966" selection-end="66966" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/customers/edit.html.erb">
@@ -639,30 +722,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/customers/_investment_fields.html.erb">
+    <entry file="file:///Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/form_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="5" selection-start="599" selection-end="599" vertical-scroll-proportion="-6.9473686">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/customers/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="41" selection-start="509" selection-end="509" vertical-scroll-proportion="0.284153">
+        <state line="513" column="45" selection-start="21741" selection-end="21741" vertical-scroll-proportion="-7.6153846">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/customer.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="2" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
+        <state line="2" column="68" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README">
+    <entry file="file://$PROJECT_DIR$/app/models/bank.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="12" selection-start="1108" selection-end="1108" vertical-scroll-proportion="0.63746226">
+        <state line="1" column="23" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/customers/_investment_fields.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="79" selection-end="79" vertical-scroll-proportion="-0.8">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/attribute_methods.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="265" column="8" selection-start="11683" selection-end="11683" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs18/nilclass.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="131" column="6" selection-start="2253" selection-end="2253" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/investment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="48" selection-start="655" selection-end="655" vertical-scroll-proportion="0.57051283">
           <folding />
         </state>
       </provider>
