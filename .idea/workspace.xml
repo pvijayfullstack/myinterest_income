@@ -42,10 +42,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="0" selection-start="1440" selection-end="1440" vertical-scroll-proportion="0.0">
+            <state line="26" column="2" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.4848485">
               <folding />
             </state>
           </provider>
@@ -87,10 +87,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="11" selection-start="1632" selection-end="1632" vertical-scroll-proportion="0.65384614">
+            <state line="41" column="11" selection-start="1632" selection-end="1632" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -133,13 +133,13 @@
         <option value="$PROJECT_DIR$/app/views/customers/_form.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20100402070220_create_investments.rb" />
         <option value="$PROJECT_DIR$/app/models/customer.rb" />
-        <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/app/models/bank.rb" />
         <option value="$PROJECT_DIR$/app/views/customers/_investment_fields.html.erb" />
         <option value="$PROJECT_DIR$/app/models/investment.rb" />
         <option value="$PROJECT_DIR$/app/views/customers/show.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/customers_controller.rb" />
         <option value="$PROJECT_DIR$/public/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/README" />
       </list>
     </option>
   </component>
@@ -693,13 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="1440" selection-end="1440" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/form_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="542" column="10" selection-start="23545" selection-end="23545" vertical-scroll-proportion="-7.6153846">
@@ -758,7 +751,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="11" selection-start="1632" selection-end="1632" vertical-scroll-proportion="0.65384614">
+        <state line="41" column="11" selection-start="1632" selection-end="1632" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="2" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.4848485">
           <folding />
         </state>
       </provider>
