@@ -6,7 +6,7 @@
 </p>
 <ol>
   <% for invest in @customer.investments %>
-      <li><%= h invest.investment_name %>;<%= h invest.investment_amount %> invested;<%= h invest.investment_apy %>%;<%= h invest.investment_years %>years;<%= h number_with_precision(invest.compound_interest_years, :precision => 2) %> Interest Earned; <%= h number_with_precision(invest.average_interest_monthly, :precision => 2) %> Average Monthly Income</li>
+      <li><%= h invest.bank %>;<%= h invest.investment_name %>;<%= h invest.investment_amount %> invested;<%= h invest.investment_apy %>%;<%= h invest.investment_years %>years;<%= h number_with_precision(invest.compound_interest_years, :precision => 2) %> Interest Earned; <%= h number_with_precision(invest.average_interest_monthly, :precision => 2) %> Average Monthly Income</li>
   <% end %>
 </ol>
 

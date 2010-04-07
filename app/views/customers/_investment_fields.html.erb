@@ -1,7 +1,11 @@
 
 <p class="specific_investment">
-  <%= inv_f.label :bank, "Bank Name" %><br />
+   <%= inv_f.label :bank, "Bank Name" %><br />
+  <% if !@banks.nil? %>
+  <%= inv_f.select(:bank,  @banks, { :include_blank => true }) %>  <br />
+  <% else %>
   <%= inv_f.text_field :bank %><br />
+  <% end %>
   <%= inv_f.label :investment_name, "Investment Name" %><br />
   <%= inv_f.text_field :investment_name %><br />
   <%= inv_f.label :investment_amount, "Investment Amount" %><br />

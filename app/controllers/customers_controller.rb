@@ -10,6 +10,8 @@ class CustomersController < ApplicationController
   def new
     @customer = Customer.new
     @customer.investments.build
+    @banks = Bank.all.collect {|b| [ b.name, b.name ] }
+    @banks << ["Add New Bank..", "-1"]
   end
   
   def create
@@ -27,6 +29,25 @@ class CustomersController < ApplicationController
   def edit
     @customer = Customer.find(params[:id])
     @customer.investments.build unless @customer.investments.exists?
+    #uses for selected in name terms
+    #http://api.rubyonrails.org/classes/ActionView/Helpers/FormOptionsHelper.html
+#    Another common case is a select  tag for an belongs_to-associated object.
+#
+#    Example with @post.person_id => 2:
+#
+#      select("post", "person_id", Person.all.collect {|p| [ p.name, p.id ] }, {:include_blank => 'None'})
+#
+#    could become:
+#
+#      <select name="post[person_id]">
+#        <option value="">None</option>
+#        <option value="1">David</option>
+#        <option value="2" selected="selected">Sam</option>
+#        <option value="3">Tobias</option>
+#      </select>
+
+    @banks = Bank.all.collect {|b| [ b.name, b.name ] }
+    @banks << ["Add New Bank..", "-1"]
   end
   
   def update

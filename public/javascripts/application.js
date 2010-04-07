@@ -30,6 +30,15 @@
             $(this).closest(".specific_investment").hide();
             return false;
         });
+
+        //changing select to textfield for new banks
+        $('select').live('change',function (e){
+            v = $(this).val();
+            if (v == "-1") {
+                n = $(this).attr('name');
+               $(this).replaceWith(jQuery('<input name="'+n+'" size="30" type="text">'));
+            }
+        });
     });
 })(jQuery);
 
