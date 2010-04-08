@@ -1,4 +1,7 @@
 class CustomersController < ApplicationController
+
+  before_filter :all_banks
+
   def index
     @customers = Customer.all
   end
@@ -10,8 +13,6 @@ class CustomersController < ApplicationController
   def new
     @customer = Customer.new
     @customer.investments.build
-    @banks = Bank.all.collect {|b| [ b.name, b.name ] }
-    @banks << ["Add New Bank..", "-1"]
   end
   
   def create
@@ -24,6 +25,9 @@ class CustomersController < ApplicationController
     else
       render :action => 'new'
     end
+  rescue
+    @customer.errors.add("Bank name")
+    render :action => 'new'
   end
   
   def edit
@@ -65,5 +69,11 @@ class CustomersController < ApplicationController
     @customer.destroy
     flash[:notice] = "Successfully destroyed customer."
     redirect_to customers_url
+  end
+
+
+  def all_banks
+    @banks = Bank.all.collect {|b| [ b.name, b.name ] }
+    @banks << ["Add New Bank..", "-1"] 
   end
 end

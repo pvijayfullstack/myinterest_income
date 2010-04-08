@@ -5,6 +5,8 @@ class Investment < ActiveRecord::Base
   before_update :bank_create_or_update
   before_create :bank_create_or_update
 
+  validates_presence_of :investment_name, :investment_amount, :investment_apy, :investment_years
+
   def compound_interest_years
     apy = investment_apy/100
     calculated_result_partial = (1+apy)**investment_years
@@ -33,13 +35,17 @@ class Investment < ActiveRecord::Base
 
 
   def bank_create_or_update
-     logger.info("@invest_bank_name is " + @invest_bank_name.to_yaml)
+     logger.info("@invest_bank_name is " + @invest_bank_name.to_s)
      #b = Bank.find(:name => @invest_bank_name)
      b = Bank.create_or_find_by_name(@invest_bank_name)
      #b.save!
      #using investment belongs to bank
      #setting investment attribute before create or update for investment happens
-     self.write_attribute(:bank_id, b.id)
+     if (b != nil)
+       self.write_attribute(:bank_id, b.id)
+     else
+       raise
+     end
   end
 
 #  def bank_update
