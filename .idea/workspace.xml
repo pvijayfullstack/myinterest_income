@@ -24,10 +24,10 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="investment.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="investment.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/investment.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="12" selection-start="1430" selection-end="1430" vertical-scroll-proportion="0.0">
+            <state line="16" column="22" selection-start="683" selection-end="683" vertical-scroll-proportion="-0.38141027">
               <folding />
             </state>
           </provider>
@@ -42,10 +42,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="customers_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="customers_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/customers_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="27" selection-start="799" selection-end="799" vertical-scroll-proportion="0.7979798">
+            <state line="21" column="18" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -63,7 +63,7 @@
       <file leaf-file-name="bank.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/bank.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="49" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
+            <state line="15" column="62" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -81,7 +81,7 @@
       <file leaf-file-name="validations.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file:///Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/validations.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1094" column="8" selection-start="56677" selection-end="56677" vertical-scroll-proportion="-3.4615386">
+            <state line="1006" column="10" selection-start="53319" selection-end="53344" vertical-scroll-proportion="-0.6923077">
               <folding />
             </state>
           </provider>
@@ -90,7 +90,7 @@
       <file leaf-file-name="callbacks.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file:///Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/callbacks.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="317" column="0" selection-start="13684" selection-end="13684" vertical-scroll-proportion="0.0">
+            <state line="219" column="13" selection-start="9557" selection-end="9557" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -638,11 +638,11 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/app/models/investment.rb</url>
-          <line>39</line>
+          <line>42</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/app/models/investment.rb</url>
-          <line>44</line>
+          <line>47</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/app/models/bank.rb</url>
@@ -712,37 +712,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/callbacks.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="317" column="0" selection-start="13684" selection-end="13684" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/rubystubs18/object.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="189" column="6" selection-start="6215" selection-end="6215" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/validations.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1094" column="8" selection-start="56677" selection-end="56677" vertical-scroll-proportion="-3.4615386">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/customer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="29" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/bank.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="49" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -754,16 +726,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/investment.rb">
+    <entry file="file:///Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/callbacks.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="12" selection-start="1430" selection-end="1430" vertical-scroll-proportion="0.0">
+        <state line="219" column="13" selection-start="9557" selection-end="9557" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/customers_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="27" selection-start="799" selection-end="799" vertical-scroll-proportion="0.7979798">
+        <state line="21" column="18" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/validations.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1006" column="10" selection-start="53319" selection-end="53344" vertical-scroll-proportion="-0.6923077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/bank.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="62" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/customer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="29" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/investment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="22" selection-start="683" selection-end="683" vertical-scroll-proportion="-0.38141027">
           <folding />
         </state>
       </provider>

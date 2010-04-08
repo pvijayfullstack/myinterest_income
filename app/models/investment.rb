@@ -6,6 +6,9 @@ class Investment < ActiveRecord::Base
   before_create :bank_create_or_update
 
   validates_presence_of :investment_name, :investment_amount, :investment_apy, :investment_years
+  validates_numericality_of :investment_amount
+  validates_numericality_of :investment_apy, :less_than => 20
+  validates_numericality_of :investment_years, :less_than => 100
 
   def compound_interest_years
     apy = investment_apy/100
