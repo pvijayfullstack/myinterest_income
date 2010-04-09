@@ -1,4 +1,4 @@
-This app is being built using Ruby/Ruby on Rails/SQL DB/jQuery/YUI
+This app is being built using Ruby/Ruby on Rails/SQL DB/ActiveRecord Model and Backend/jQuery/YUI/ExtJS
 initially to provide a Fixed Income Management Solution with Web UI and Web Services API,
 specially keeping in mind customers who use the MyInterest Income Calculator iPhone App in iTunes App Store.
 The Web Services API could be integrated to iPhone App MyInterest also. Hosted on Heroku for Staging it.
@@ -16,6 +16,8 @@ script/server
 
 -------------------
 Completed Functionality
+
+Model/Mainly Backend:
 
 Customer and Investments Model with Nested Attributes Updates
 Basic UI and Model support: Add new, Edit, View, Delete Customers
