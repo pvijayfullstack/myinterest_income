@@ -1,6 +1,7 @@
 class CustomersController < ApplicationController
 
   before_filter :all_banks
+  #rescue_from ActiveRecord::RecordInvalid, :with => :bank_name_not_found
 
   def index
     @customers = Customer.all
@@ -25,8 +26,9 @@ class CustomersController < ApplicationController
     else
       render :action => 'new'
     end
-  rescue
-    @customer.errors.add("Bank name")
+  rescue ActiveRecord::RecordInvalid
+    logger.info("@cusromer.errors" + @customer.errors.to_yaml)
+    #@customer.errors.add_to_base("Bank name is blank")
     render :action => 'new'
   end
   
@@ -62,6 +64,9 @@ class CustomersController < ApplicationController
     else
       render :action => 'edit'
     end
+  rescue ActiveRecord::RecordInvalid
+    #@customer.errors.add_to_base("Bank name is blank")
+    render :action => 'new'
   end
   
   def destroy

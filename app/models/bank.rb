@@ -1,23 +1,21 @@
 class Bank < ActiveRecord::Base
   has_many :investments
 
-  validates_presence_of :name, :on => :create
-  validates_uniqueness_of :name, :on => :create
-
-  def validate_on_create
-    if name.blank?
-      errors.add("Bank name cannot be blank.")
-    end
-  end
+  validates_presence_of :name
+  validates_uniqueness_of :name
 
 
   #to avoid any race conditions
-  def self.create_or_find_by_name(name)  
-    create!(:name => name) rescue find_by_name(name)
+  def self.create_or_find_by_name(name)
+    ba = create!(:name => name)
+  rescue ActiveRecord::RecordInvalid=> invalid
+    ba = find_by_name(name)
+    if(ba == nil)
+       raise invalid
+    end
+    ba
+#  rescue
+#    ba = find_by_name(name)
+#    logger.info(" 4attribute_for_inspect " + ba.attribute_for_inspect(:name));
   end
-
-  def check_bank_valid
-    valid?
-  end
-
 end
