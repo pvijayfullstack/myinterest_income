@@ -35,5 +35,5 @@ Remaining Functionality
 
 1. In line Validations? 
 2. UI Layout: Very basic currently has to be improved with layout as in www.drinnovations.us
-4. RSpec tests to be checked in
+4. Shoulda (prefer over RSpec) tests to be checked in
 --------------------------
