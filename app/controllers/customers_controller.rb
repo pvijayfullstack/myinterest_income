@@ -24,12 +24,12 @@ class CustomersController < ApplicationController
       flash[:notice] = "Successfully created customer."
       redirect_to @customer
     else
+#      @customer.errors.each do |key, value|
+#        logger.info("save false key is " + key.to_s)
+#        logger.info("save false value is "+ value.to_s)
+#      end
       render :action => 'new'
     end
-  rescue ActiveRecord::RecordInvalid
-    logger.info("@cusromer.errors" + @customer.errors.to_yaml)
-    #@customer.errors.add_to_base("Bank name is blank")
-    render :action => 'new'
   end
   
   def edit

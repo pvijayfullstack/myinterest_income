@@ -1,6 +1,6 @@
 
 <p class="specific_investment">
-   <%= inv_f.label :bank, "Bank Name" %><br />
+  <%= inv_f.label :bank, "Bank Name" %><br />
   <% if !@banks.nil? %>
   <%= inv_f.select(:bank,  @banks, { :include_blank => true }) %>  <br />
   <% else %>

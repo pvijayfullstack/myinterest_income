@@ -29,6 +29,7 @@ class Investment < ActiveRecord::Base
     interest_per_day*30
   end
 
+  #virtual attribute used
   #just for nested attributes; helpful for creating in new, updating in edit
   #<%= inv_f.text_field :bank %><br />
   def bank=(name)
@@ -44,8 +45,8 @@ class Investment < ActiveRecord::Base
   end
 
 
+  #part of validation
   def bank_create_or_update
-     logger.info("@invest_bank_name is " + @invest_bank_name.to_s)
      #b = Bank.find(:name => @invest_bank_name)
      b = Bank.create_or_find_by_name(@invest_bank_name)
      #b.save!
@@ -55,8 +56,9 @@ class Investment < ActiveRecord::Base
        self.write_attribute(:bank_id, b.id)
      end
   rescue ActiveRecord::RecordInvalid => e
-     self.errors.add_to_base("Bank name is blank")
-     raise e
+     self.errors.add(:bank, "name is blank")
+     #eventually for save to be false in customer controller to show this error
+     return false
   end
 
 #  def bank_update
