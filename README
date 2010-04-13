@@ -2,6 +2,10 @@ This app is being built using Ruby/Ruby on Rails/SQL DB/ActiveRecord Model and B
 initially to provide a Fixed Income Management Solution with Web UI and Web Services API,
 specially keeping in mind customers who use the MyInterest Income Calculator iPhone App in iTunes App Store.
 The Web Services API could be integrated to iPhone App MyInterest also. Hosted on Heroku for Staging it.
+Staging: http://myinterest-income.heroku.com
+The staging data may or may not be pushed in consistent state right now.
+Please take permission if you intend to use it directly, specially add and edit stuff using it.
+
 www.drinnovations.us was also designed by me using Rails/jQuery/YUI and it took a more Web Services API Viewpoint.
 Comparing for UI: Server side Ruby processing and Web Services JSON Approaches.
 Uses Active Record Queries in different styles.
