@@ -9,12 +9,13 @@ class Investment < ActiveRecord::Base
   validates_numericality_of :investment_apy, :less_than => 20
   validates_numericality_of :investment_years, :less_than => 100
 
-  #callbacks explitic here to help with Bank using belongs_to
-  #before_create :bank_create_or_update
-  # before_update :bank_create_or_update
-  #investment manages the bank here through its virtual attribute bank
-  #the customer controller will display the errors as they are added to investments, retutning false
+  #investment manages the bank model creation here through its virtual attribute bank
+  #Customer can select a bank from dop down or Instantly Select New Bank using jQuery to create a New Bank
+  #This could be done in callbacks. Added here for validation errors to showup also
+  #the customer controller will display the errors as they are added to investments, returning false
+  #This keeps customer controller code clean unaware of the extra model custom validation error being done
   def validate
+     #custom validation and creation for bank model
      bank_validate_create_or_update
   end
 
