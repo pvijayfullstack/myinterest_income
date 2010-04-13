@@ -5,17 +5,12 @@ class Bank < ActiveRecord::Base
   validates_uniqueness_of :name
 
 
-  #to avoid any race conditions
+  #to avoid any race conditions lets first try to create and then use find
   def self.create_or_find_by_name(name)
     ba = create!(:name => name)
   rescue ActiveRecord::RecordInvalid=> invalid
     ba = find_by_name(name)
-    if(ba == nil)
-       raise invalid
-    end
+    raise invalid  if(ba == nil)
     ba
-#  rescue
-#    ba = find_by_name(name)
-#    logger.info(" 4attribute_for_inspect " + ba.attribute_for_inspect(:name));
   end
 end

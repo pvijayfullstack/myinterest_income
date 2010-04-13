@@ -1,10 +1,7 @@
 class Investment < ActiveRecord::Base
   belongs_to :customer
   belongs_to :bank
-  #callbacks explitic here to help with Bank using belongs_to
-#  before_create :bank_create_or_update
-#  before_update :bank_create_or_update
-  #before_validation :bank_create_or_update
+
 
   #note here we use the virtual attribute from belongs_to in validation
   validates_presence_of :investment_name, :investment_amount, :investment_apy, :investment_years
@@ -12,9 +9,16 @@ class Investment < ActiveRecord::Base
   validates_numericality_of :investment_apy, :less_than => 20
   validates_numericality_of :investment_years, :less_than => 100
 
+  #callbacks explitic here to help with Bank using belongs_to
+  #before_create :bank_create_or_update
+  # before_update :bank_create_or_update
+  #investment manages the bank here through its virtual attribute bank
+  #the customer controller will display the errors as they are added to investments, retutning false
   def validate
-     bank_create_or_update
+     bank_validate_create_or_update
   end
+
+
   
 
   def compound_interest_years
@@ -45,16 +49,13 @@ class Investment < ActiveRecord::Base
   end
 
 
-  #part of validation
-  def bank_create_or_update
+  def bank_validate_create_or_update
      #b = Bank.find(:name => @invest_bank_name)
      b = Bank.create_or_find_by_name(@invest_bank_name)
+     self.write_attribute(:bank_id, b.id) if (b != nil)
      #b.save!
      #using investment belongs to bank
      #setting investment attribute before create or update for investment happens
-     if (b != nil)
-       self.write_attribute(:bank_id, b.id)
-     end
   rescue ActiveRecord::RecordInvalid => e
      self.errors.add(:bank, "name is blank")
      #eventually for save to be false in customer controller to show this error
