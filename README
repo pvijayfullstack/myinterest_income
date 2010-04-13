@@ -24,10 +24,11 @@ Model/Mainly Backend:
 >>Basic UI and Model support: Add new, Edit, View Delete Multiple Investments by a Customer
 >>Bank Model Introduced and it belongs to Investments.
 >>Basic UI and Model support: Add new, Edit, View Delete Multiple Investments with Banks by a Customer
->>Banks Drop Down with Create for New Automatically. Allows Selected in Edit Mode, can be changed. Deleting Investment Keeps Banks.
->>Keeps Uniqueness of Bank by name
+>>Banks Drop Down with Create for New Automatically. When you click Add New Bank, it allows you to enter new bank name.Uses jQuery.
+>>Allows Selected bank to changed/added in Edit Mode, can be changed. Deleting Investment Keeps Banks, since other customers can use it. Builds dynamically.
+>>Investment model manages Bank creation. Keeps Customer controller clean. Keeps Uniqueness of Bank by first trying to create it with uniqueness validation, then find to avoid race conditions.
 >>Validation checks and display for Parent and Child Nested Attributes.
->>Passing Investment 'bank' virtual attribute for validation error to parent Cusromer with false returned.
+>>Passing Investment 'bank' virtual attribute for validation error to parent Customer with false returned.
 
 ------------------------
 
