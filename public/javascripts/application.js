@@ -32,7 +32,7 @@
         });
 
         //changing select to textfield for new banks
-        $('select').live('change',function (e){
+        $('select').live('focus',function (e){
             v = $(this).val();
             if (v == "-1") {
                 n = $(this).attr('name');

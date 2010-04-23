@@ -48,8 +48,8 @@ class CustomersController < ApplicationController
 #        <option value="3">Tobias</option>
 #      </select>
 
-    @banks = Bank.all.collect {|b| [ b.name, b.name ] }
-    @banks << ["Add New Bank..", "-1"]
+#    @banks = Bank.all.collect {|b| [ b.name, b.name ] }
+#    @banks << ["Add New Bank..", "-1"]
   end
   
   def update
@@ -75,6 +75,6 @@ class CustomersController < ApplicationController
 
   def all_banks
     @banks = Bank.all.collect {|b| [ b.name, b.name ] }
-    @banks << ["Add New Bank..", "-1"] 
+    #@banks << ["Add New Bank..", "-1"]
   end
 end
