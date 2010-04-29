@@ -1,5 +1,5 @@
 class CustomersController < ApplicationController
-
+  before_filter :require_user
   before_filter :all_banks
   #rescue_from ActiveRecord::RecordInvalid, :with => :bank_name_not_found
 
