@@ -33,12 +33,16 @@ Model/Mainly Backend:
 >>Investment model manages Bank creation. Keeps Customer controller clean. Keeps Uniqueness of Bank by first trying to create it with uniqueness validation, then find to avoid race conditions.
 >>Validation checks and display for Parent and Child Nested Attributes.
 >>Passing Investment 'bank' virtual attribute for validation error to parent Customer with false returned.
+>> Adding Authlogic for to login to see Customers Investments and also Edit/Change their Investments.
+Authentication added for Security for the User of this system, who can be a Financial Advisor having Admin Rights.
+
+
 
 ------------------------
 
 Remaining Functionality
-
-1. Shoulda (RSpec used in earlier projects, may use here) tests to be checked in.
+1. Adding acl9 here for Authorization. Normal Users would be Assistants to Financial Advisor when can Only View stuff.
+2. Add More RSpec and Shoulda tests to be checked in.
 2. In line Validations? Also, formtastic looks fantastic.
 3. UI Layout: Very basic currently has to be improved with layout as in www.drinnovations.us
 --------------------------
