@@ -12,7 +12,14 @@
 
 
 <p>
-  <%= link_to "Edit", edit_customer_path(@customer) %> |
-  <%= link_to "Destroy", @customer, :confirm => 'Are you sure?', :method => :delete %> |
+  <% if permitted_to? :edit, :customers %>
+      <%= link_to "Edit", edit_customer_path(@customer) %>
+  <% end %>
+  <% if ((permitted_to? :destroy, :customers) && (permitted_to? :delete, :investments)) %>
+      <%= link_to "Destroy", @customer, :confirm => 'Are you sure?', :method => :delete %>
+  <% end %>
   <%= link_to "View All", customers_path %>
 </p>
+
+
+

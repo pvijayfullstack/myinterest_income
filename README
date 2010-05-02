@@ -35,13 +35,18 @@ Model/Mainly Backend:
 >>Passing Investment 'bank' virtual attribute for validation error to parent Customer with false returned.
 >> Added Authlogic for to login to see Customers Investments and also Edit/Change their Investments.
 Authentication added for Security for the User of this system, who can be a Financial Advisor having Admin Rights.
-
+>>Adding declarative_authorization here for Authorization.
+   4 Roles defined Initially:
+     -- Financial Advisor: can do everything
+     -- CoAdvisor: can do everything except delete/destroy to customer and investments
+     -- Assistant:can only see customer and also their investments. No edit, create, delete.
+     -- Guest: doesn't login. Can only see customer names
 
 
 ------------------------
 
 Remaining Functionality
-1. Adding acl9 here for Authorization. Normal Users would be Assistants to Financial Advisor when can Only View stuff.
+1. Add more stuff for declarative authorization
 2. Add More RSpec and Shoulda tests to be checked in.
 3. In line Validations? Also, formtastic looks fantastic.
 4. UI Layout: Very basic currently has to be improved with layout as in www.drinnovations.us

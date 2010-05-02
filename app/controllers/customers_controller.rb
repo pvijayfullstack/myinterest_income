@@ -1,10 +1,45 @@
 class CustomersController < ApplicationController
-  before_filter :require_user
+  #filter_resource_access
+  #filter_access_to :all, :attribute_check => true
+  #filter_access_to :index
+  #filter_access_to :all
+
+
+  #before_filter :require_user, :except => [:index] 
   before_filter :all_banks
   #rescue_from ActiveRecord::RecordInvalid, :with => :bank_name_not_found
 
+  # Before filter to provide the objects for the actions where no params[:id]
+  # is available. See TalksController for a case where this makes sense even
+  # for the index action.
+  #before_filter :load_conference, :only => [:show, :edit, :update, :destroy]
+  #before_filter :new_conference, :only => [:new, :create]
+  # Installs a before_filter to check accesses on all actions for the user's
+  # authorization. :attribute_check causes the object in @conference to
+  # be checked against the conditions in the authorization rules.
+  #filter_access_to :all, :attribute_check => true
+  #filter_access_to :index, :attribute_check => false
+
+  before_filter :load_customer, :only => [:show, :edit, :update, :destroy]
+  before_filter :new_customer, :only => [:new, :create]
+  before_filter :load_all_customers, :only => [:index]
+
+  #filter_access_to implies it will check and not allow access if privilege not proper
+  filter_access_to :edit, :require => :edit
+  filter_access_to :index, :require => :index
+  #this means that if filter_access_to :new is not specified, you are in unsecured zone and anyone can access it
+   filter_access_to :new, :require => :new
+   #same as above with respective action which implies default deny policy
+   filter_access_to :all
+
+
+  #filter_access_to :all means that any action will require same name permission/action for that privilege
+  #filter_access_to :index, :require => :index, :attribute_check => false
+
+
   def index
-    @customers = Customer.all
+    #@customers = Customer.all
+    #@customers = Customer.with_permissions_to(:read).all
   end
   
   def show
@@ -75,6 +110,20 @@ class CustomersController < ApplicationController
 
   def all_banks
     @banks = Bank.all.collect {|b| [ b.name, b.name ] }
-    #@banks << ["Add New Bank..", "-1"]
+    @banks << ["Add New Bank..", "-1"]
+  end
+
+
+  # provided by the default filter_resource_access before_filters
+  def load_customer
+    @customer = Customer.find(params[:id])
+  end
+
+  def new_customer
+    @customer = Customer.new(params[:customer])
+  end
+
+  def load_all_customers
+    @customers = Customer.all
   end
 end

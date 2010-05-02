@@ -12,7 +12,26 @@
   <component name="GemRequirementsHolder" version="2">
     <requirement>
       <requirement>
+        <dependency name="activesupport" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source manual="true" />
+    </requirement>
+    <requirement>
+      <requirement>
         <dependency name="authlogic" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source manual="true" />
+      <source from="config/environment.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="declarative_authorization" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source manual="true" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="declarative_authorization" version="0" bound="GREATER_OR_EQUAL" url="&quot;http://gemcutter.org&quot;" />
       </requirement>
       <source from="config/environment.rb" />
     </requirement>
@@ -20,6 +39,7 @@
       <requirement>
         <dependency name="rails" version="0" bound="GREATER_OR_EQUAL" />
       </requirement>
+      <source manual="true" />
       <source from="config/boot.rb" />
     </requirement>
     <requirement>
@@ -53,6 +73,7 @@
     <orderEntry type="library" scope="PROVIDED" name="[gem] sqlite3-ruby (v1.2.5, /Library/Ruby/Gems/1.8/gems/sqlite3-ruby-1.2.5)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] thoughtbot-shoulda (v2.10.2, /Library/Ruby/Gems/1.8/gems/thoughtbot-shoulda-2.10.2)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] authlogic (v2.1.3, /Users/growth/.gem/ruby/1.8/gems/authlogic-2.1.3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] declarative_authorization (v0.4.1, /Library/Ruby/Gems/1.8/gems/declarative_authorization-0.4.1)" level="application" />
   </component>
 </module>
 

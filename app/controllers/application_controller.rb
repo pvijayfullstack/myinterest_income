@@ -3,6 +3,9 @@
 
 class ApplicationController < ActionController::Base
   #before_filter :require_user
+  before_filter :set_current_user
+
+
 
   helper :all # include all helpers, all the time
   protect_from_forgery # See ActionController::RequestForgeryProtection for details
@@ -12,7 +15,7 @@ class ApplicationController < ActionController::Base
 
   helper_method :current_user
 
-  private
+  #private
 
   def current_user_session
     return @current_user_session if defined?(@current_user_session)
@@ -33,16 +36,27 @@ class ApplicationController < ActionController::Base
     end
   end
 
-  def require_no_user
-    if current_user
-      store_location
-      flash[:notice] = "You must be logged out to access previous page"
-      redirect_to account_url
-      return false
-    end
-  end
+
+# def require_no_user
+#    if current_user
+#      store_location
+#      flash[:notice] = "You must be logged out to access previous page"
+#      redirect_to account_url
+#      return false
+#    end
+#  end
+
 
   def store_location
     session[:return_to] = request.request_uri
+  end
+
+  def set_current_user
+    Authorization.current_user = current_user
+  end
+
+  def permission_denied
+    flash[:error] = "Sorry, you not allowed to access that page."
+    redirect_to customers_path
   end
 end

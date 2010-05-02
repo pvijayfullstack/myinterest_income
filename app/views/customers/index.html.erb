@@ -5,13 +5,21 @@
     <th>Name</th>
   </tr>
   <% for customer in @customers %>
-    <tr>
-      <td><%=h customer.name %></td>
-      <td><%= link_to "Show", customer %></td>
-      <td><%= link_to "Edit", edit_customer_path(customer) %></td>
-      <td><%= link_to "Destroy", customer, :confirm => 'Are you sure?', :method => :delete %></td>
-    </tr>
+      <tr>
+        <td><%=h customer.name %></td>
+        <% if ((permitted_to? :show, :customers) && (permitted_to? :read, :investments)) %>
+            <td><%= link_to "Show", customer %></td>
+        <% end %>
+        <% if ((permitted_to? :edit, :customers) && (permitted_to? :update, :investments)) %>
+            <td><%= link_to "Edit", edit_customer_path(customer) %></td>
+        <% end %>
+        <% if ((permitted_to? :destroy, :customers) && (permitted_to? :delete, :investments)) %>
+            <td><%= link_to "Destroy", customer, :confirm => 'Are you sure?', :method => :delete %></td>
+        <% end %>
+      </tr>
   <% end %>
 </table>
 
-<p><%= link_to "New Customer", new_customer_path %></p>
+<% if permitted_to? :new, :customers %>
+    <p><%= link_to "New Customer", new_customer_path %></p>
+<% end %>

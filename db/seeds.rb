@@ -5,3 +5,8 @@
 #   
 #   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
 #   Major.create(:name => 'Daley', :city => cities.first)
+require "declarative_authorization/maintenance"
+
+Authorization::Maintenance::without_access_control do
+    Role.seed
+end

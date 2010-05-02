@@ -2,9 +2,9 @@
 <p class="specific_investment">
   <%= inv_f.label :bank, "Bank Name" %><br />
   <% if !@banks.nil? %>
-  <%= inv_f.select(:bank,  @banks, { :include_blank => true, :prompt => "Add New Bank..", :index => -1 }) %>  <br />
+      <%= inv_f.select(:bank,  @banks, { :include_blank => true }) %>  <br />
   <% else %>
-  <%= inv_f.text_field :bank %><br />
+      <%= inv_f.text_field :bank %><br />
   <% end %>
   <%= inv_f.label :investment_name, "Investment Name" %><br />
   <%= inv_f.text_field :investment_name %><br />
@@ -14,5 +14,7 @@
   <%= inv_f.text_field :investment_apy %><br />
   <%= inv_f.label :investment_years, "Investment Years" %><br />
   <%= inv_f.text_field :investment_years %><br />
-  <%= inv_f.hidden_field(:_destroy) %><%= link_to "Delete Investment" , {}, :class => "delete_investment"%><br />
+  <% if permitted_to? :delete, :investments %>
+      <%= inv_f.hidden_field(:_destroy) %><%= link_to "Delete Investment" , {}, :class => "delete_investment"%><br />
+  <% end %>
 </p>

@@ -1,4 +1,6 @@
 class Investment < ActiveRecord::Base
+  using_access_control
+  
   belongs_to :customer
   belongs_to :bank
 
