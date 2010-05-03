@@ -4,6 +4,7 @@
     <list default="true" readonly="true" id="88c02b62-37cb-40ff-9f35-1c94b983834b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README" afterPath="$PROJECT_DIR$/README" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/customers/index.html.erb" afterPath="$PROJECT_DIR$/app/views/customers/index.html.erb" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="myinterest_income.iws" />
@@ -63,10 +64,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="62" selection-start="2514" selection-end="2514" vertical-scroll-proportion="0.34323433">
+            <state line="40" column="62" selection-start="2514" selection-end="2514" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -108,10 +109,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/customers/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="34" selection-start="397" selection-end="397" vertical-scroll-proportion="-8.210526">
+            <state line="11" column="17" selection-start="313" selection-end="313" vertical-scroll-proportion="0.44147158">
               <folding />
             </state>
           </provider>
@@ -141,8 +142,8 @@
         <option value="$PROJECT_DIR$/app/views/customers/show.html.erb" />
         <option value="$PROJECT_DIR$/.gems" />
         <option value="$PROJECT_DIR$/config/authorization_rules.rb" />
-        <option value="$PROJECT_DIR$/app/views/customers/index.html.erb" />
         <option value="$PROJECT_DIR$/README" />
+        <option value="$PROJECT_DIR$/app/views/customers/index.html.erb" />
       </list>
     </option>
   </component>
@@ -938,13 +939,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/customers/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="34" selection-start="397" selection-end="397" vertical-scroll-proportion="-8.210526">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/bank.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0">
@@ -968,7 +962,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="62" selection-start="2514" selection-end="2514" vertical-scroll-proportion="0.34323433">
+        <state line="40" column="62" selection-start="2514" selection-end="2514" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/customers/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="17" selection-start="313" selection-end="313" vertical-scroll-proportion="0.44147158">
           <folding />
         </state>
       </provider>

@@ -10,8 +10,6 @@
         <% if ((permitted_to? :show, :customers) && (permitted_to? :read, :investments)) %>
             <td><%= link_to "Show", customer %></td>
         <% end %>
-        <%= (permitted_to? :edit, :customers) %>
-        <%= (permitted_to? :update, :investments) %>
         <% if ((permitted_to? :edit, :customers) && (permitted_to? :update, :investments)) %>
             <td><%= link_to "Edit", edit_customer_path(customer) %></td>
         <% end %>
