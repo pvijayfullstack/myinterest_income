@@ -3,7 +3,8 @@ class Role < ActiveRecord::Base
   ALL_ROLES =[
   'Advisor',
   'Assistant',
-  'Coadvisor'
+  'Coadvisor',
+  'President'
   ]
 
   #checking how model can effect

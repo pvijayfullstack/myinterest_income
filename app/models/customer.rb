@@ -5,7 +5,8 @@ class Customer < ActiveRecord::Base
   # context of the model.  By default, :+read+ is not checked because of
   # performance impacts, especially with large result sets.
   using_access_control
-
+  
+  belongs_to :user
   has_many :investments, :dependent => :destroy
   accepts_nested_attributes_for :investments, :allow_destroy => true
   validates_presence_of :name

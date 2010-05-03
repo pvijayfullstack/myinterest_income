@@ -6,15 +6,19 @@
   </tr>
   <% for customer in @customers %>
       <tr>
-        <td><%=h customer.name %></td>
-        <% if ((permitted_to? :show, :customers) && (permitted_to? :read, :investments)) %>
-            <td><%= link_to "Show", customer %></td>
-        <% end %>
-        <% if ((permitted_to? :edit, :customers) && (permitted_to? :update, :investments)) %>
-            <td><%= link_to "Edit", edit_customer_path(customer) %></td>
-        <% end %>
-        <% if ((permitted_to? :delete, :customers) && (permitted_to? :delete, :investments)) %>
-            <td><%= link_to "Destroy", customer, :confirm => 'Are you sure?', :method => :delete %></td>
+        <!-- at view level, pass object instance to enable atribute check -->
+        <!-- note the use of has_role for guest to still see list of names of customers as per original functionality -->
+        <% if (permitted_to?(:read, customer) || has_role?(:guest)) %>
+            <td><%=h customer.name %></td>
+            <% if ((permitted_to? :show, :customers) && (permitted_to? :read, :investments)) %>
+                <td><%= link_to "Show", customer %></td>
+            <% end %>
+            <% if ((permitted_to? :edit, :customers) && (permitted_to? :update, :investments)) %>
+                <td><%= link_to "Edit", edit_customer_path(customer) %></td>
+            <% end %>
+            <% if ((permitted_to? :delete, :customers) && (permitted_to? :delete, :investments)) %>
+                <td><%= link_to "Destroy", customer, :confirm => 'Are you sure?', :method => :delete %></td>
+            <% end %>
         <% end %>
       </tr>
   <% end %>

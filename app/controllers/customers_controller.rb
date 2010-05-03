@@ -22,7 +22,6 @@ class CustomersController < ApplicationController
 
   before_filter :load_customer, :only => [:show, :edit, :update, :destroy]
   before_filter :new_customer, :only => [:new, :create]
-  before_filter :load_all_customers, :only => [:index]
 
   #filter_access_to implies it will check and not allow access if privilege not proper
   filter_access_to :edit, :require => :edit
@@ -38,8 +37,8 @@ class CustomersController < ApplicationController
 
 
   def index
-    #@customers = Customer.all
-    #@customers = Customer.with_permissions_to(:read).all
+     #@customers = Customer.all
+     @customers = (has_role?(:guest)) ? Customer.all : Customer.with_permissions_to(:read).all
   end
   
   def show
@@ -47,14 +46,15 @@ class CustomersController < ApplicationController
   end
   
   def new
-    @customer = Customer.new
+    #@customer = Customer.new
     @customer.investments.build
   end
   
   def create
     #customer[investments_attributes][0][investment_name] in HTML
     #converts to "customer"=>{"name"=>"Jaimatadi", "investments_attributes"=>{"0"=>{"investment_amount"=>"25553.99", "investment_name"=>"Inv1", "investment_apy"=>"4.7"}}}}
-    @customer = Customer.new(params[:customer])
+    @customer.user = current_user
+    #@customer = Customer.new(params[:customer])
     if @customer.save
       flash[:notice] = "Successfully created customer."
       redirect_to @customer
@@ -120,10 +120,7 @@ class CustomersController < ApplicationController
   end
 
   def new_customer
+    puts "params[:customer] is #{params[:customer]}"
     @customer = Customer.new(params[:customer])
-  end
-
-  def load_all_customers
-    @customers = Customer.all
   end
 end

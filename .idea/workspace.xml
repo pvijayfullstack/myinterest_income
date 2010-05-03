@@ -3,7 +3,15 @@
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="88c02b62-37cb-40ff-9f35-1c94b983834b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README" afterPath="$PROJECT_DIR$/README" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/customer.rb" afterPath="$PROJECT_DIR$/app/models/customer.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20100429144809_create_users.rb" afterPath="$PROJECT_DIR$/db/migrate/20100429144809_create_users.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/authorization_rules.rb" afterPath="$PROJECT_DIR$/config/authorization_rules.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/customers_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/customers_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/role.rb" afterPath="$PROJECT_DIR$/app/models/role.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/customers/index.html.erb" afterPath="$PROJECT_DIR$/app/views/customers/index.html.erb" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="myinterest_income.iws" />
@@ -27,10 +35,10 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="role.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/role.rb">
+      <file leaf-file-name="20100429144809_create_users.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20100429144809_create_users.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="88" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0">
+            <state line="8" column="27" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -39,79 +47,79 @@
       <file leaf-file-name="authorization_rules.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/authorization_rules.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="31" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
+            <state line="21" column="54" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README">
+      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/users/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="20" selection-start="2869" selection-end="2869" vertical-scroll-proportion="0.57746476">
+            <state line="20" column="84" selection-start="591" selection-end="591" vertical-scroll-proportion="-8.421053">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20100402070220_create_investments.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20100402070220_create_investments.rb">
+      <file leaf-file-name="_investment_fields.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/customers/_investment_fields.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="14" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0">
+            <state line="14" column="35" selection-start="622" selection-end="622" vertical-scroll-proportion="-8.842105">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="customer.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/customer.rb">
+      <file leaf-file-name="user.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="17" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
+            <state line="11" column="55" selection-start="451" selection-end="451" vertical-scroll-proportion="0.44147158">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/customers/edit.html.erb">
+      <file leaf-file-name="associations.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/associations.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="927" column="10" selection-start="52643" selection-end="52643" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/customers/index.html.erb">
+      <file leaf-file-name="users_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="26" selection-start="269" selection-end="269" vertical-scroll-proportion="-3.1578948">
+            <state line="18" column="32" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/customers/show.html.erb">
+      <file leaf-file-name="role.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/role.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="53" selection-start="651" selection-end="651" vertical-scroll-proportion="-5.4736843">
+            <state line="10" column="72" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="customers_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/customers_controller.rb">
+      <file leaf-file-name="user_sessions_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/user_sessions_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="126" column="26" selection-start="4262" selection-end="4262" vertical-scroll-proportion="0.0">
+            <state line="14" column="38" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <file leaf-file-name="reader.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///Library/Ruby/Gems/1.8/gems/declarative_authorization-0.4.1/lib/declarative_authorization/reader.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="51" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0">
+            <state line="291" column="64" selection-start="10602" selection-end="10602" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -127,22 +135,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/app/models/user_session.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
-        <option value="$PROJECT_DIR$/app/views/user_sessions/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/customers_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/investment.rb" />
         <option value="$PROJECT_DIR$/app/views/customers/_investment_fields.html.erb" />
         <option value="$PROJECT_DIR$/app/views/customers/show.html.erb" />
         <option value="$PROJECT_DIR$/.gems" />
-        <option value="$PROJECT_DIR$/config/authorization_rules.rb" />
-        <option value="$PROJECT_DIR$/app/models/role.rb" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
-        <option value="$PROJECT_DIR$/app/views/customers/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/customer.rb" />
         <option value="$PROJECT_DIR$/README" />
+        <option value="$PROJECT_DIR$/app/models/customer.rb" />
+        <option value="$PROJECT_DIR$/app/views/customers/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/customers_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/role.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20100503174932_add_user_to_customers.rb" />
+        <option value="$PROJECT_DIR$/app/models/boss.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20100429144809_create_users.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/config/authorization_rules.rb" />
       </list>
     </option>
   </component>
@@ -865,114 +873,114 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Library/Ruby/Gems/1.8/gems/declarative_authorization-0.4.1/lib/declarative_authorization/in_controller.rb">
+    <entry file="file:///Library/Ruby/Gems/1.8/gems/declarative_authorization-0.4.1/lib/declarative_authorization/helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="179" column="137" selection-start="7323" selection-end="7397" vertical-scroll-proportion="-3.280528">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20100429144809_create_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="3" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20100430144055_create_roles.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20100430144253_create_assignments.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="21" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="31" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="54" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="51" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/customers/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="51" column="20" selection-start="1885" selection-end="1885" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/customers/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="26" selection-start="269" selection-end="269" vertical-scroll-proportion="-3.1578948">
+        <state line="10" column="48" selection-start="360" selection-end="360" vertical-scroll-proportion="-6.3157897">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/customer.rb">
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
+        <state line="10" column="10" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/customers/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/users/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="53" selection-start="651" selection-end="651" vertical-scroll-proportion="-5.4736843">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20100402070220_create_investments.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="14" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/customers_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="26" selection-start="4262" selection-end="4262" vertical-scroll-proportion="0.0">
+        <state line="29" column="3" selection-start="1400" selection-end="1400" vertical-scroll-proportion="-5.1153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20100503174932_add_user_to_customers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="4" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Ruby/Gems/1.8/gems/declarative_authorization-0.4.1/lib/declarative_authorization/reader.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="291" column="64" selection-start="10602" selection-end="10602" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/user_sessions_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="38" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/associations.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="927" column="10" selection-start="52643" selection-end="52643" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20100429144809_create_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="27" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/role.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="88" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0">
+        <state line="10" column="72" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="32" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="84" selection-start="591" selection-end="591" vertical-scroll-proportion="-8.421053">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/customers/_investment_fields.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="35" selection-start="622" selection-end="622" vertical-scroll-proportion="-8.842105">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/authorization_rules.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="31" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
+        <state line="21" column="54" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README">
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="20" selection-start="2869" selection-end="2869" vertical-scroll-proportion="0.57746476">
+        <state line="11" column="55" selection-start="451" selection-end="451" vertical-scroll-proportion="0.44147158">
           <folding />
         </state>
       </provider>
