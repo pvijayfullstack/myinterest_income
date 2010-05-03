@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="88c02b62-37cb-40ff-9f35-1c94b983834b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/authorization_rules.rb" afterPath="$PROJECT_DIR$/config/authorization_rules.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gems" afterPath="$PROJECT_DIR$/.gems" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README" afterPath="$PROJECT_DIR$/README" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/customers/index.html.erb" afterPath="$PROJECT_DIR$/app/views/customers/index.html.erb" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="myinterest_income.iws" />
@@ -38,10 +36,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reader.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="reader.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file:///Library/Ruby/Gems/1.8/gems/declarative_authorization-0.4.1/lib/declarative_authorization/reader.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="0" selection-start="3725" selection-end="3725" vertical-scroll-proportion="3.9056604">
+            <state line="113" column="0" selection-start="3725" selection-end="3725" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -65,10 +63,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="47" selection-start="2789" selection-end="2789" vertical-scroll-proportion="0.0">
+            <state line="40" column="62" selection-start="2514" selection-end="2514" vertical-scroll-proportion="0.34323433">
               <folding />
             </state>
           </provider>
@@ -141,10 +139,10 @@
         <option value="$PROJECT_DIR$/app/models/investment.rb" />
         <option value="$PROJECT_DIR$/app/views/customers/_investment_fields.html.erb" />
         <option value="$PROJECT_DIR$/app/views/customers/show.html.erb" />
-        <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/.gems" />
         <option value="$PROJECT_DIR$/config/authorization_rules.rb" />
         <option value="$PROJECT_DIR$/app/views/customers/index.html.erb" />
+        <option value="$PROJECT_DIR$/README" />
       </list>
     </option>
   </component>
@@ -926,13 +924,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="47" selection-start="2789" selection-end="2789" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gems">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="55" selection-end="80" vertical-scroll-proportion="0.0">
@@ -970,7 +961,14 @@
     </entry>
     <entry file="file:///Library/Ruby/Gems/1.8/gems/declarative_authorization-0.4.1/lib/declarative_authorization/reader.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="0" selection-start="3725" selection-end="3725" vertical-scroll-proportion="3.9056604">
+        <state line="113" column="0" selection-start="3725" selection-end="3725" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="62" selection-start="2514" selection-end="2514" vertical-scroll-proportion="0.34323433">
           <folding />
         </state>
       </provider>

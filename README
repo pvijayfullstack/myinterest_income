@@ -38,7 +38,7 @@ Authentication added for Security for the User of this system, who can be a Fina
 >>Adding declarative_authorization here for Authorization.
    4 Roles defined Initially:
      -- Financial Advisor: can do everything
-     -- CoAdvisor: can do everything except delete/destroy to customer and investments
+     -- CoAdvisor: can do everything except delete/destroy to investments
      -- Assistant:can only see customer and also their investments. No edit, create, delete.
      -- Guest: doesn't login. Can only see customer names
 
