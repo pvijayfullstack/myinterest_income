@@ -46,7 +46,8 @@ Authentication added for Security for the User of this system, who can be a Fina
 ------------------------
 
 Remaining Functionality
-1. Add more stuff for declarative authorization
+1. Have a group of financial advisors and each financial advisor should be able to see customers(and their investments)
+  that they created.
 2. Add More RSpec and Shoulda tests to be checked in.
 3. In line Validations? Also, formtastic looks fantastic.
 4. UI Layout: Very basic currently has to be improved with layout as in www.drinnovations.us
