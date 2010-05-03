@@ -4,7 +4,7 @@ authorization do
   role :advisor do
     #manage is a named privilege
     has_permission_on [:customers], :to => :manage
-    has_permission_on [:investments], :to => :inv_manage 
+    has_permission_on [:investments], :to => :manage
   end
 
   #coadvisor cannot delete investments
@@ -13,7 +13,7 @@ authorization do
   role :coadvisor do
     #includes :advisor
     has_permission_on [:customers], :to => :manage
-    has_permission_on [:investments], :to => :inv_manage_nodelete
+    has_permission_on [:investments], :to => [:read, :create, :update]
   end
 
   #assistant can do any read on customers and investments
@@ -26,20 +26,28 @@ authorization do
   #default guest can do only list of customers names read only, no investments at all
   #no login used
   role :guest do
-    has_permission_on [:customers], :to => :only_list
+    has_permission_on [:customers], :to => :list
   end
 end
 
 
+#privileges do
+#  #the index, show etc are Privileges
+#  #had to include :delete for model security. see comment in customer model
+#  privilege :manage, :includes => [:index, :show, :new, :create, :edit, :update, :destroy, :delete]
+#  privilege :inv_manage, :includes => [:create, :read, :update, :delete]
+#  privilege :inv_manage_nodelete, :includes => [:create, :read, :update]
+#  privilege :read, :includes => [:index, :show, :read]
+#  privilege :only_list, :includes => [:index]
+#end
+
+
 privileges do
-  #the index, show etc are Privileges
-  #had to include :delete for model security. see comment in customer model
-  privilege :manage, :includes => [:index, :show, :new, :create, :edit, :update, :destroy, :delete]
-  privilege :inv_manage, :includes => [:create, :read, :update, :delete]
-  privilege :inv_manage_nodelete, :includes => [:create, :read, :update]
-  privilege :read, :includes => [:index, :show, :read]
-  privilege :only_list, :includes => [:index]
+  privilege :manage, :includes => [:create, :read, :update, :delete]
+  privilege :list, :includes => [:index]
+  privilege :read, :includes => [:index, :show]
+  privilege :create, :includes => :new
+  privilege :update, :includes => :edit
+  privilege :delete, :includes => :destroy
 end
-
-
 
