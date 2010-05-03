@@ -3,15 +3,7 @@
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="88c02b62-37cb-40ff-9f35-1c94b983834b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README" afterPath="$PROJECT_DIR$/README" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/customer.rb" afterPath="$PROJECT_DIR$/app/models/customer.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20100429144809_create_users.rb" afterPath="$PROJECT_DIR$/db/migrate/20100429144809_create_users.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/authorization_rules.rb" afterPath="$PROJECT_DIR$/config/authorization_rules.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/customers_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/customers_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/role.rb" afterPath="$PROJECT_DIR$/app/models/role.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/customers/index.html.erb" afterPath="$PROJECT_DIR$/app/views/customers/index.html.erb" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="myinterest_income.iws" />
@@ -71,10 +63,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="55" selection-start="451" selection-end="451" vertical-scroll-proportion="0.44147158">
+            <state line="11" column="55" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="1" selection-start="3315" selection-end="3315" vertical-scroll-proportion="0.91549295">
               <folding />
             </state>
           </provider>
@@ -116,15 +117,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reader.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file:///Library/Ruby/Gems/1.8/gems/declarative_authorization-0.4.1/lib/declarative_authorization/reader.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="291" column="64" selection-start="10602" selection-end="10602" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -140,7 +132,6 @@
         <option value="$PROJECT_DIR$/app/views/customers/show.html.erb" />
         <option value="$PROJECT_DIR$/.gems" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
-        <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/app/models/customer.rb" />
         <option value="$PROJECT_DIR$/app/views/customers/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/customers_controller.rb" />
@@ -151,6 +142,7 @@
         <option value="$PROJECT_DIR$/db/migrate/20100429144809_create_users.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/config/authorization_rules.rb" />
+        <option value="$PROJECT_DIR$/README" />
       </list>
     </option>
   </component>
@@ -873,13 +865,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Library/Ruby/Gems/1.8/gems/declarative_authorization-0.4.1/lib/declarative_authorization/helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="20" selection-start="1885" selection-end="1885" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/customers/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="48" selection-start="360" selection-end="360" vertical-scroll-proportion="-6.3157897">
@@ -980,7 +965,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="55" selection-start="451" selection-end="451" vertical-scroll-proportion="0.44147158">
+        <state line="11" column="55" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="1" selection-start="3315" selection-end="3315" vertical-scroll-proportion="0.91549295">
           <folding />
         </state>
       </provider>

@@ -41,13 +41,20 @@ Authentication added for Security for the User of this system, who can be a Fina
      -- CoAdvisor: can do everything except delete/destroy to investments
      -- Assistant:can only see customer and also their investments. No edit, create, delete.
      -- Guest: doesn't login. Can only see customer names
+>>Have a group of financial advisors and each financial advisor should be able to see customers(and their investments)
+  that they created.
+
+Group Authorization, Guest, Demo for President and then One CoAdvisor for each
+Advisor with table user referencing advisor id for coadvisor to show off
+authorization_rules using attribute. Also, Includes Query Model with Permission
+and View Accordingly also added efficiently.... 
 
 
 ------------------------
 
 Remaining Functionality
-1. Have a group of financial advisors and each financial advisor should be able to see customers(and their investments)
-  that they created.
+
+1. Can clean up stuff for Authorization per TODOs
 2. Add More RSpec and Shoulda tests to be checked in.
 3. In line Validations? Also, formtastic looks fantastic.
 4. UI Layout: Very basic currently has to be improved with layout as in www.drinnovations.us
