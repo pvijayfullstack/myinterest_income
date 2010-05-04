@@ -13,7 +13,7 @@ class Role < ActiveRecord::Base
   ##<Authorization::GuestUser:0x1036e1f78 @role_symbols=[:guest]> (roles [:guest], privileges [:create, :manage], context :roles)
   #special mechanism has to be  built
   #
-  using_access_control
+  #using_access_control
   
   has_many :assignments
   has_many :users, :through => :assignments

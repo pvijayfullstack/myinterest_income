@@ -1,8 +1,10 @@
 ENV["RAILS_ENV"] = "test"
 require File.expand_path(File.dirname(__FILE__) + "/../config/environment")
 require 'test_help'
+require File.expand_path(File.dirname(__FILE__) + "/../vendor/gems/declarative_authorization-0.4.1/lib/declarative_authorization/maintenance")
 
 class ActiveSupport::TestCase
+  include Authorization::TestHelper
   # Transactional fixtures accelerate your tests by wrapping each test method
   # in a transaction that's rolled back on completion.  This ensures that the
   # test database remains unchanged so your fixtures don't have to be reloaded

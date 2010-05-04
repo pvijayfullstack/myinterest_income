@@ -37,6 +37,12 @@
     </requirement>
     <requirement>
       <requirement>
+        <dependency name="factory_girl" version="0" bound="GREATER_OR_EQUAL" url="&quot;http://gemcutter.org&quot;" />
+      </requirement>
+      <source from="config/environments/test.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
         <dependency name="rails" version="0" bound="GREATER_OR_EQUAL" />
       </requirement>
       <source manual="true" />
