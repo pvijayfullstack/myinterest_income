@@ -20,7 +20,8 @@ authorization do
       #basically relationship set up using basic rails standard relationship so we can call methods here
       #for current user, if not there will show as null
       if_attribute :user_id => is {user.id}
-      if_attribute :user => is {user.advisor}
+      #if_attribute :user => is {user.advisor}
+      if_attribute :user => is_in {user.managed_coadvisors}
     end
     has_permission_on [:investments], :to => :manage
   end
