@@ -44,8 +44,13 @@ Authentication added for Security for the User of this system, who can be a Fina
 >>Have a group of financial advisors and each financial advisor should be able to see customers(and their investments)
   that they created.
 
-Group Authorization, Guest, Demo for President and then One CoAdvisor for each
-Advisor with table user referencing advisor id for coadvisor to show off
+Financial Advisor can have many CoAdvisors for each
+Advisor with table user referencing advisor id for coadvisor to show off.relationship set up in console for now.
+Advisors can see customers created by them and also their CoAdvisor.
+CoAdvisors can only see customers they create.
+Group Authorization on Financial Advisor level and its CoAdvisor, Demo for President and then
+Guest separately.
+
 authorization_rules using attribute. Also, Includes Query Model with Permission
 and View Accordingly also added efficiently.... 
 
