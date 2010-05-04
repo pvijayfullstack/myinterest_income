@@ -54,13 +54,14 @@ Guest separately.
 authorization_rules using attribute. Also, Includes Query Model with Permission
 and View Accordingly also added efficiently.... 
 
+>>Initial tests (using Factory girl) added for Authorization Policy check style as an example
 
 ------------------------
 
 Remaining Functionality
 
 1. Can clean up stuff for Authorization per TODOs
-2. Add More RSpec and Shoulda tests to be checked in.
+2. Add More RSpec and Shoulda tests to be checked in. Use Machinist.
 3. In line Validations? Also, formtastic looks fantastic.
 4. UI Layout: Very basic currently has to be improved with layout as in www.drinnovations.us
 --------------------------

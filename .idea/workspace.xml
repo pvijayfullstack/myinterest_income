@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="88c02b62-37cb-40ff-9f35-1c94b983834b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environment.rb" afterPath="$PROJECT_DIR$/config/environment.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/myinterest_income.iml" afterPath="$PROJECT_DIR$/.idea/myinterest_income.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/authorization_policy_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/test.sqlite3" afterPath="$PROJECT_DIR$/db/test.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/test.rb" afterPath="$PROJECT_DIR$/config/environments/test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/Factories.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/role.rb" afterPath="$PROJECT_DIR$/app/models/role.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README" afterPath="$PROJECT_DIR$/README" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_helper.rb" afterPath="$PROJECT_DIR$/test/test_helper.rb" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="myinterest_income.iws" />
@@ -43,10 +36,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="authorization_policy_test.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="authorization_policy_test.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/unit/authorization_policy_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="49" selection-start="548" selection-end="548" vertical-scroll-proportion="0.5684931">
+            <state line="19" column="49" selection-start="548" selection-end="548" vertical-scroll-proportion="-6.3846154">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="56" column="36" selection-start="3378" selection-end="3378" vertical-scroll-proportion="0.2635379">
               <folding />
             </state>
           </provider>
@@ -97,15 +99,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../../.gem/ruby/1.8/gems/authlogic-2.1.3/lib/authlogic/acts_as_authentic/base.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="14" selection-start="2514" selection-end="2514" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Factories.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Factories.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -141,7 +134,6 @@
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20100429144809_create_users.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
-        <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/test/test_helper.rb" />
         <option value="$PROJECT_DIR$/config/environment.rb" />
         <option value="$PROJECT_DIR$/config/environments/test.rb" />
@@ -150,6 +142,7 @@
         <option value="$PROJECT_DIR$/test/Factories.rb" />
         <option value="$PROJECT_DIR$/config/authorization_rules.rb" />
         <option value="$PROJECT_DIR$/test/unit/authorization_policy_test.rb" />
+        <option value="$PROJECT_DIR$/README" />
       </list>
     </option>
   </component>
@@ -1043,13 +1036,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/migrate/20100503174932_add_user_to_customers.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="35" selection-start="93" selection-end="100" vertical-scroll-proportion="-0.9230769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="84" selection-start="1430" selection-end="1430" vertical-scroll-proportion="-7.730769">
@@ -1150,7 +1136,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/unit/authorization_policy_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="49" selection-start="548" selection-end="548" vertical-scroll-proportion="0.5684931">
+        <state line="19" column="49" selection-start="548" selection-end="548" vertical-scroll-proportion="-6.3846154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="36" selection-start="3378" selection-end="3378" vertical-scroll-proportion="0.2635379">
           <folding />
         </state>
       </provider>
